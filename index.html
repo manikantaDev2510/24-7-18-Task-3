@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes animal {
+            from {
+                background-color: aqua;
+                height: 200px;
+                width: 200px;
+            }
+
+            to {
+                height: 500px;
+                width: 500px;
+                background-color: chartreuse;
+            }
+        }
+
+        .anmi {
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            border-radius: 100px;
+            animation-name: animal;
+            animation-duration: 5s;
+            /* animation-direction: normal; */
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+            animation-direction: alternate-reverse;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="anmi"></div>
+</body>
+
+</html>
